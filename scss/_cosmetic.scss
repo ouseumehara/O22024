@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------
+Utility
+--------------------------------------------------------------*/
+.u_visible_sp {
+	display: none;
+}
+.u_inner {
+	width: 1100px; // 基本の横幅＋左右のスペース40px
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.u_clearfix:after,
+.u_clearfix > li:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+* html .u_clearfix,
+* html .u_clearfix > li {
+	zoom: 1;
+}
+*+html .u_clearfix,
+*+html .u_clearfix li {
+	zoom: 1;
+}
+.u_switch_img {
+	opacity: 1;
+}
+.u_left {
+	float: left;
+}
+.u_right {
+	float: right;
+}
+.u_center {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.u_list {
+  -webkit-display: flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.u_list li {
+  flex-basis: 33.3%;
+}
+
+@media all and (max-width: 767px) {
+	.u_visible_sp {
+		display: inherit;
+	}
+	.u_visible_pc {
+		display: none;
+	}
+	.u_inner {
+		width: auto;
+		margin: 0 3.125%; // 20px
+		padding: 0;
+	}
+	.u_left {
+		float: none;
+		width: auto !important;
+	}
+	.u_right {
+		float: none;
+		width: auto !important;
+	}
+}
+
+

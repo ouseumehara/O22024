@@ -1,0 +1,95 @@
+/*--------------------------------------------------------------
+Foundation
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, figure, figcaption,
+input, textarea, select {
+	border: 0;
+	font-style: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	color: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	line-height: 1.8;
+}
+
+html {
+	font-size: 62.5%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust:     100%;
+}
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+}
+body {
+	font-size: 20px;
+	font-size: 2rem;
+	background: #fff;
+	color: #000;
+	overflow-y: scroll;
+	font-family: Meiryo, "メイリオ", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ ゴシック", "Osaka‐等幅";
+	font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+	font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+ul, li {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+}
+a:hover,
+a:active,
+a:focus {
+	outline: 0;
+}
+a {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	transition: opacity .2s ease-in;
+	-webkit-transition: opacity .2s ease-in;
+	opacity: 1;
+}
+img,
+input[type="image"] {
+	border: 0;
+	height: auto;
+	max-width: 100%;
+}
+input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+strong {
+	font-weight:bold;
+}
+a {
+	text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+	//text-decoration: underline;
+}
+a:hover,
+input[type="image"]:hover {
+	opacity: 0.7;
+}
+.m_ft {
+	font-family: "Times New Roman", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-family: "游明朝体 Medium", "Yu Mincho Medium", YuMincho, "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-family: YuMincho, "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}

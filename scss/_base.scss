@@ -1,0 +1,77 @@
+/*--------------------------------------------------------------
+Layout/PageBase
+--------------------------------------------------------------*/
+#header {
+	// ヘッダ固定時
+	//position: fixed;
+	//width: 100%;
+	//top: 0;
+}
+#footer {
+}
+@media all and (min-width: 768px) {
+	.h_sp_inner {
+		height: auto !important;
+	}
+}
+@media all and (max-width: 767px) {
+	.h_menu {
+		position: fixed;
+		right: 1em;
+		top: 1em;
+		width: 3.5em;
+		z-index: 10;
+		cursor: pointer;
+	}
+	#toggle_menu {
+		position: fixed;
+		top: 0;
+		left: -80%;
+		z-index: 9;
+		width: 80%;
+		height: 100%;
+		-webkit-transition: left 0.3s ease-in-out;
+		transition: left 0.3s ease-in-out;
+	}
+	.h_sp_inner {
+		overflow-y: auto;
+		padding: 0 1em;
+		background: rgba(0, 0, 0, 0.8);
+	}
+	body.open {
+		overflow-y: hidden;
+		#toggle_menu {
+			left: 0;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+Component
+--------------------------------------------------------------*/
+#gototop {
+	// PAGE TOP 右下固定時
+	//position: fixed;
+	//right: 10%;
+	//bottom: 10%;
+}
+
+
+
+.evt {
+	visibility: hidden;
+}
+
+
+.c_list {
+	-webkit-display: flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.c_list li {
+	flex-basis: 30%;
+}
