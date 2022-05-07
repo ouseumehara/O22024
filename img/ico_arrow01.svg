@@ -1,0 +1,17 @@
+<svg id="arrow.svg" xmlns="http://www.w3.org/2000/svg" width="21.187" height="13.43" viewBox="0 0 21.187 13.43">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #a0a0a0;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="楕円形_1" data-name="楕円形 1" class="cls-1" cx="1.484" cy="11.93" r="1.484"/>
+  <circle id="楕円形_1_のコピー" data-name="楕円形 1 のコピー" class="cls-1" cx="7.547" cy="8.43" r="1.485"/>
+  <circle id="楕円形_1_のコピー_2" data-name="楕円形 1 のコピー 2" class="cls-1" cx="13.608" cy="4.93" r="1.484"/>
+  <path id="三角形_2" data-name="三角形 2" class="cls-2" d="M968.39,2291.99l-1.1,4.09-3-5.19Z" transform="translate(-947.188 -2290.88)"/>
+</svg>

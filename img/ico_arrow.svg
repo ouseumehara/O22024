@@ -1,0 +1,23 @@
+<svg id="ico_arrow" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-opacity: 0;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: none;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="bg" class="cls-1" cx="22.5" cy="22.5" r="20"/>
+  <path id="arrow" class="cls-2" d="M1458,1771l3,3-3,3" transform="translate(-1436.5 -1751.5)"/>
+</svg>
